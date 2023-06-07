@@ -1,0 +1,846 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --orange: #E50914;
+    --hover: #bf0b14;
+}
+
+.home {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0, 0.7) url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar {
+    padding-top: 7px;
+}
+
+.logo {
+    font-size: 2.7rem;
+    color: var(--orange);
+    font-weight: 900;
+    text-shadow: 1cm;
+    height: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 11.5vw;
+}
+
+.language {
+    border: 1px solid rgb(85, 74, 74);
+    width: 105px;
+    text-align: center;
+    border-radius: 4px;
+    height: 24px;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 4px;
+    ;
+    margin-top: 15px;
+    ;
+
+}
+
+.language:hover {
+    cursor: pointer;
+    border-radius: 4px;
+    /* border: 2.5px solid white; */
+}
+
+.fa-thin {
+    color: white;
+}
+
+.fa-caret-down {
+    color: white;
+}
+
+.sign-in {
+    font-family: 'Poppins', sans-serif;
+
+    text-decoration: none;
+    background-color: var(--orange);
+    width: 67px;
+    height: 24px;
+    padding-top: 6px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 25px;
+    font-weight: bold;
+    ;
+    margin-top: 15px;
+    transition: all 0.1s;
+    ;
+
+}
+
+.sign-in:hover {
+    background-color: var(--hover);
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.middle-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 102vh;
+
+}
+
+.one {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.two {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.three {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    ;
+}
+
+.search {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.emailing {
+    width: 26vw;
+    height: 48px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1.3px solid grey;
+    padding-left: 10px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.btn {
+    width: 14vw;
+    height: 50px;
+    border: 2px solid var(--orange);
+    background-color: var(--orange);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+    background-blend-mode: dark;
+}
+
+.about-section {
+    color: rgb(0, 0, 0);
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 3px solid rgb(46, 45, 45);
+    border-bottom: 3px solid rgb(46, 45, 45);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    ;
+}
+
+.texting {
+    color: white;
+    width: 35%;
+}
+
+.bold-text {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.bold-texts {
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+.para {
+    font-size: 1.1rem;
+    ;
+}
+
+.images img {
+    width: 490px;
+    height: 400px;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 3px solid rgb(46, 45, 45);
+    border-bottom: 3px solid rgb(46, 45, 45);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    ;
+
+}
+
+.faqs {
+    color: white;
+    border-top: 5px solid rgb(46, 45, 45);
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqs-heading {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+    margin-top: 35px;
+}
+
+.qstn {
+    background-color: rgb(46, 45, 45);
+    width: 73vw;
+    height: 12.5vh;
+    margin: 5px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    justify-content: space-between;
+    padding-right: 25px;
+    transition: all 0.15s;
+    ;
+}
+
+.qstn:hover {
+    background-color: rgb(86, 85, 85);
+    cursor: pointer;
+
+}
+
+.texxt {
+    text-align: center;
+    font-size: 1rem;
+    ;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    border-top: 6px solid rgb(60, 59, 59);
+    display: flex;
+    flex-direction: row;
+    color: rgb(111, 108, 108);
+    background-color: black;
+    padding-left: 10vw;
+    height: auto;
+    ;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+ul li a {
+    color: rgb(127, 126, 126);
+    ;
+    font-size: 0.8rem;
+}
+
+.textss {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 25%;
+    padding-left: 25px;
+    margin-bottom: 40px;
+}
+
+.tot {
+    padding-left: -25px;
+    font-size: 0.8rem;
+}
+
+.call {
+    margin-bottom: 40px;
+}
+
+
+
+/* sign in page */
+
+.logoo {
+    font-size: 2.7rem;
+    color: var(--orange);
+    font-weight: 600;
+    text-shadow: 1cm;
+    height: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    ;
+    ;
+}
+
+#boody {
+    background: rgba(0,0,0,0.7) url(sign-in=page.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    ;
+}
+
+.page {
+    color: white;
+    margin-top: 90px;
+    width: 30%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pages {
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.sign {
+    padding: 32px;
+}
+
+.searching {
+    width: 70%;
+    height: 8vh;
+    background: rgb(40, 39, 39);
+    padding-left: 10px;
+    margin: 10px;
+    border: 1px solid rgb(24, 24, 24);
+    font-size: 1rem;
+    border-radius: 5px;
+    color:white;
+    ;
+
+}
+
+.buttons {
+    margin-top: 50px;
+    width: 70%;
+    height: 6vh;
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    ;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.need-help {
+    margin-top: 20px;
+    ;
+    margin-left: 100px;
+    font-size: 0.8rem;
+    ;
+    color: white;
+
+}
+
+.worst {
+    margin-top: 20px;
+}
+
+.sign-in-text {
+    margin-top: 28px;
+    color: white;
+    font-size: 0.8rem;
+    ;
+}
+
+.sign-in-text-two {
+    padding: 50px;
+    font-size: 0.8rem;
+    ;
+}
+
+.footr {
+    margin-top: 130px;
+    ;
+    /* border-top: 6px solid rgb(60, 59, 59); */
+    display: flex;
+    flex-direction: row;
+    color: rgb(111, 108, 108);
+    background: rgba(0, 0, 0, 0.7);
+    padding-left: 10vw;
+    height: 50vh;
+}
+
+
+
+.logo-class{
+    text-decoration: none;
+}
+
+
+@media (min-width:321px) and (max-width:520px) {
+    .about-section {
+        overflow: hidden;
+    }
+
+    .home {
+        overflow: hidden;
+    }
+
+    .logo {
+        font-size: 2rem;
+        ;
+        margin-top: 6px;
+        ;
+    }
+
+    .language {
+        display: none;
+
+    }
+
+    .sign-in {
+        width: 50px;
+        padding-top: 2px;
+        height: 20px;
+        ;
+    }
+
+    .navbar {
+        margin-right: 20px;
+        ;
+    }
+
+    .one {
+        font-size: 1.5rem;
+        ;
+    }
+
+    .two {
+        font-size: 1.1rem;
+        ;
+    }
+
+    .three {
+        font-size: 0.9rem;
+        ;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emailing {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+        padding-left: 10px;
+
+        ;
+    }
+
+    .btn {
+        width: 40%;
+        margin: auto;
+        /* margin-top: 10px;; */
+        font-size: 1rem;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texting {
+        width: auto;
+    }
+
+    .bold-text {
+        font-size: 1.6rem;
+        ;
+        text-align: center;
+    }
+
+    .para {
+        font-size: 1rem;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .images {
+        width: auto;
+        height: auto;
+    }
+
+
+
+    .boxs {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bold-texts {
+        font-size: 1.6rem;
+        ;
+        text-align: center;
+    }
+
+    .images img {
+        width: 380px;
+        height: 350px;
+    }
+
+    .faqs-heading {
+        font-size: 2rem;
+        ;
+    }
+
+    .qstn {
+        font-size: 1rem;
+        ;
+    }
+
+    .texxt {
+        font-size: 0.9rem;
+        ;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .textss {
+        padding: 0px;
+        margin: 0;
+        widtH: auto;
+    }
+
+    /* sign in page  */
+    .logoo {
+        font-size: 1.9rem;
+    }
+
+    .page {
+        width: 70%;
+        margin: auto;
+        margin-top: 55px;
+        ;
+    }
+
+    .searching {
+        font-size: 0.8rem;
+        ;
+    }
+
+    .buttons {
+        margin-top: 20px;
+    }
+
+    .extra {
+        width: 70%;
+
+        justify-content: start;
+
+    }
+
+    .need-help {
+        /* margin-left: 50px;; */
+        display: none;
+    }
+
+    .sign-in-text span {
+        margin-top: 20px;
+    }
+
+    .para-in {
+        margin-top: 10px;
+    }
+
+    .sign-in-text-two {
+        font-size: 0.8rem;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .footr {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        ;
+    }
+
+
+
+
+
+
+
+}
+
+@media (max-width:320px) {
+    .about-section {
+        overflow: hidden;
+    }
+
+    .home {
+        overflow: hidden;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+        ;
+        margin-top: 6px;
+        ;
+    }
+
+    .language {
+        display: none;
+
+    }
+
+    .sign-in {
+        width: 50px;
+        padding-top: 2px;
+        height: 20px;
+        ;
+    }
+
+    .navbar {
+        margin-right: 20px;
+        ;
+    }
+
+    .one {
+        font-size: 1.5rem;
+        ;
+    }
+
+    .two {
+        font-size: 1rem;
+        ;
+    }
+
+    .three {
+        font-size: 0.8rem;
+        ;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emailing {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 40px;
+        ;
+        ;
+    }
+
+    .btn {
+        width: 40%;
+        margin: auto;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texting {
+        width: auto;
+    }
+
+    .bold-text {
+        font-size: 1.4rem;
+        ;
+        text-align: center;
+    }
+
+    .para {
+        font-size: 1rem;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .images {
+        width: auto;
+        height: auto;
+    }
+
+
+
+    .boxs {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bold-texts {
+        font-size: 1.4rem;
+        ;
+        text-align: center;
+    }
+
+    .images img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .faqs-heading {
+        font-size: 1.8rem;
+        ;
+    }
+
+    .qstn {
+        font-size: 0.9rem;
+        ;
+    }
+
+    .texxt {
+        font-size: 0.8rem;
+        ;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .textss {
+        padding: 0px;
+        margin: 0;
+        widtH: auto;
+    }
+
+    /* sign in page */
+    .logoo {
+        font-size: 1.9rem;
+    }
+
+    .page {
+        width: 70%;
+        margin: auto;
+        margin-top: 55px;
+        ;
+    }
+
+    .searching {
+        font-size: 0.8rem;
+        ;
+    }
+
+    .buttons {
+        margin-top: 20px;
+    }
+
+    .extra {
+        width: 70%;
+
+        justify-content: start;
+
+    }
+
+    .need-help {
+        /* margin-left: 50px;; */
+        display: none;
+    }
+
+    .sign-in-text span {
+        margin-top: 20px;
+    }
+
+    .para-in {
+        margin-top: 10px;
+    }
+
+    .sign-in-text-two {
+        font-size: 0.7rem;
+        /* padding: 0; */
+        /* margin-top: 30px; */
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .footr {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        ;
+    }
+
+}
