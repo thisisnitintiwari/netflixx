@@ -119,6 +119,9 @@
     margin-bottom: 20px;
 }
 
+
+
+
 .three {
     font-size: 1rem;
     text-align: center;
@@ -200,9 +203,41 @@
     ;
 }
 
+.right-items {
+    position: relative;
+
+}
+
+.videos {
+    left: 13%;
+    width: 376px;
+    height: 376px;
+    position: absolute;
+    z-index: 0;
+}
+
+.videos-desktop {
+    position: absolute;
+    left: 16%;
+    width: 336px;
+    height: 257px;
+    z-index: 0;
+
+}
+
+.tv-image {
+    z-index: 1;
+    position: inherit;
+}
+
+.desktop-images {
+    z-index: 1;
+    position: inherit;
+}
+
 .images img {
-    width: 490px;
-    height: 400px;
+    width: 515px;
+    height: 393px;
 }
 
 .boxs {
@@ -327,7 +362,7 @@ ul li a {
 }
 
 #boody {
-    background: rgba(0,0,0,0.7) url(sign-in=page.jpg);
+    background: rgba(0, 0, 0, 0.7) url(sign-in=page.jpg);
     background-repeat: no-repeat;
     background-blend-mode: darken;
     ;
@@ -367,7 +402,7 @@ ul li a {
     border: 1px solid rgb(24, 24, 24);
     font-size: 1rem;
     border-radius: 5px;
-    color:white;
+    color: white;
     ;
 
 }
@@ -436,12 +471,37 @@ ul li a {
 
 
 
-.logo-class{
+.logo-class {
     text-decoration: none;
 }
 
 
 @media (min-width:321px) and (max-width:520px) {
+
+    .right-items {
+        position: relative;
+
+    }
+
+    .videos {
+        left: 13%;
+        width: 301px;
+        top: -14%;
+        height: 391px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .videos-desktop {
+        position: absolute;
+        left: 17%;
+        top: -13%;
+        width: 249px;
+        height: 300px;
+        z-index: 0;
+
+    }
+
     .about-section {
         overflow: hidden;
     }
@@ -551,9 +611,15 @@ ul li a {
     }
 
     .images img {
-        width: 380px;
-        height: 350px;
+        width: 382px;
+        height: 323px;
+
     }
+
+    .images-img {
+        position: absolute;
+    }
+
 
     .faqs-heading {
         font-size: 2rem;
@@ -646,6 +712,32 @@ ul li a {
 }
 
 @media (max-width:320px) {
+
+
+    .right-items {
+        position: relative;
+
+    }
+
+    .videos {
+        left: 13%;
+        width: 239px;
+        top: -32%;
+        height: 404px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .videos-desktop {
+        position: absolute;
+        left: 16%;
+        top: -45%;
+        width: 194px;
+        height: 395px;
+        z-index: 0;
+
+    }
+
     .about-section {
         overflow: hidden;
     }
@@ -755,11 +847,16 @@ ul li a {
     }
 
     .images img {
-        width: 300px;
-        height: 300px;
+        width: 290px;
+        height: 250px;
+
     }
 
-    .faqs-heading {
+    .right-items {
+        position: relative;
+    }
+
+    x .faqs-heading {
         font-size: 1.8rem;
         ;
     }
